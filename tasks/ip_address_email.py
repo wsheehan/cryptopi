@@ -27,7 +27,7 @@ msg.attach(MIMEText(body, 'plain'))
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
-server.login("cryptoraspberrypi@gmail.com", "ethereum")
+server.login("cryptoraspberrypi@gmail.com", "OUR password")
 text = msg.as_string()
 
 server.sendmail(fromaddr, toaddr, text)
