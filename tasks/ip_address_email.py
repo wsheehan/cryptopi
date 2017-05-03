@@ -1,17 +1,24 @@
 
-'''
+"""
 In order to send on boot edit the 
 /etc/rc.local file to call this script
-'''
+
+Usage:
+    ip_address_email.py [--password=<password>]
+
+Options:
+    --password=<password>    password for email
+"""
 
 import smtplib
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
 import socket
-import os
+from docopt import docopt
 
-email_pass = os.environ.get('EMAIL_PASS')
+args = docopt(__doc__)
+email_pass = args['--password']
 
 # get ip address
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
