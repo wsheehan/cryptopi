@@ -92,7 +92,7 @@ git push origin <branch_name>
 * Docker config
   * installed docker on the pi
   * Researched docker images for cpu miners
-  * Found (Monero Miner)[https://github.com/OhGodAPet/cpuminer-multi]
+  * Found [Monero Miner](https://github.com/OhGodAPet/cpuminer-multi)
   * Need to determine if GPU or CPU mining will be more efficient with ethereum
   * Litcoin has some resources but fairly scarce
 
@@ -103,7 +103,7 @@ git push origin <branch_name>
 # May 8, 2017
 
 * Fetching Coin data
-  * free api on (Coin Market Cap)[https://coinmarketcap.com/api/]
+  * free api on [Coin Market Cap](https://coinmarketcap.com/api/)
   * using the `request` and `json` libraries we can fetch and parse API Data
   * our python script holds a dict in memory with our coins of interest
   * Script loops over our coins and updates their data
@@ -163,8 +163,8 @@ git push origin <branch_name>
   * Copied over monero binary
   * Restarted sync, seems to be moving faster
   * Running sync in background using screen
-  * good screen (reference)[https://www.howtoforge.com/linux_screen]
+  * good screen [reference](https://www.howtoforge.com/linux_screen)
 
 * Mining Pool?
   * found mining pool software for cryptonote
-  * (the software)[https://github.com/fancoder/cryptonote-universal-pool] would allow us to run our own mining pool
+  * [the software](https://github.com/fancoder/cryptonote-universal-pool) would allow us to run our own mining pool
