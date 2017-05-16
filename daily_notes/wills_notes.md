@@ -168,3 +168,10 @@ git push origin <branch_name>
 * Mining Pool?
   * found mining pool software for cryptonote
   * [the software](https://github.com/fancoder/cryptonote-universal-pool) would allow us to run our own mining pool
+
+# May 16
+
+* Pool config
+  * Downloaded redis via `sudo apt-get install redis-server`
+  * Redis is a data structure storage server that is incredibly fast & used by pool software
+  * install nodejs as per their website [installation](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
