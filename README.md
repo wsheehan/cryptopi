@@ -1,6 +1,6 @@
 Crypto Pi
 
-### Introduction and Motivation 
+# Introduction and Motivation 
 
 Insert end picture here 
 
@@ -8,31 +8,31 @@ This is an educational project.
 
 So let's get started! 
 
-### Instructions 
+# Instructions 
 
 Aside from the crypotcurrency synchronization this project is... 
 
-# Materials and Costs 
+### Materials and Costs 
 
-# Raspberry Pi Configuration 
+### Raspberry Pi Configuration 
 Make sure to include version information here. 
 
-# Installing the LCD Display 
+### Installing the LCD Display 
 
 Put picture here 
 
-# Monero 
+### Monero 
 
-# Pooling 
+### Pooling 
 
-# Prelimary Resutls and Conclusion 
+### Preliminary Resutls and Conclusion 
 
 
 The links to our individual daily logs can be found here: and here: . 
 
-### Challenges 
+# Challenges 
 
 
-### Video Demonstration 
+# Video Demonstration 
 
 Lets make a brief two minute video that has both of us in it a shows the information the Pi has.
