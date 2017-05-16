@@ -43,6 +43,7 @@ git commit -m "Message about what you did"
 push requested changes
 ```
 git push origin <branch_name>
+```
 
 # April 27
 
