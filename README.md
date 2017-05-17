@@ -24,7 +24,7 @@ Cost: $29.99
 
 **LCD Display**
 
-Not necessary but definitely a very cool addition to the project is the Adafruit Blue & White 16x2 LCD + Keypad kit. Snag it on amazon prime (here)[https://www.amazon.com/ADAFRUIT-INDUSTRIES-1115-KEYPAD-RASPBERRY/dp/B00DK2A1KE/ref=sr_1_14?ie=UTF8&qid=1495047907&sr=8-14&keywords=adafruit+lcd+display)
+Not necessary but definitely a very cool addition to the project is the Adafruit Blue & White 16x2 LCD + Keypad kit. Snag it on amazon prime [here](https://www.amazon.com/ADAFRUIT-INDUSTRIES-1115-KEYPAD-RASPBERRY/dp/B00DK2A1KE/ref=sr_1_14?ie=UTF8&qid=1495047907&sr=8-14&keywords=adafruit+lcd+display)
 
 Cost: $19.91
 
