@@ -12,7 +12,7 @@ So with that in mind let's get started!
 # Materials and Costs 
 **Raspberry Pi**
 
-Clearly the most vital part of this project is the Raspberry Pi. We recommend purchasing the latest model Pi off of the Adaruit website. You can prucahse the model we used, Rapsberry Pi 3 - Model B, [here](https://www.adafruit.com/product/3055)
+Clearly the most vital part of this project is the Raspberry Pi. We recommend purchasing the latest model Pi off of the Adaruit website. You can prucahse the model we used, Rapsberry Pi 3 - Model B, [here](https://www.adafruit.com/product/3055).
 
 Cost: $39.95 + Shipping
 
@@ -24,7 +24,7 @@ Cost: $29.99
 
 **LCD Display**
 
-Not necessary but definitely a very cool addition to the project is the Adafruit Blue & White 16x2 LCD + Keypad kit. Snag it on amazon prime [here](https://www.amazon.com/ADAFRUIT-INDUSTRIES-1115-KEYPAD-RASPBERRY/dp/B00DK2A1KE/ref=sr_1_14?ie=UTF8&qid=1495047907&sr=8-14&keywords=adafruit+lcd+display)
+Not necessary but definitely a very cool addition to the project is the Adafruit Blue & White 16x2 LCD + Keypad kit. Snag it on amazon prime [here](https://www.amazon.com/ADAFRUIT-INDUSTRIES-1115-KEYPAD-RASPBERRY/dp/B00DK2A1KE/ref=sr_1_14?ie=UTF8&qid=1495047907&sr=8-14&keywords=adafruit+lcd+display).
 
 Cost: $19.91
 
