@@ -11,10 +11,25 @@ So with that in mind let's get started!
 
 # Materials and Costs 
 **Raspberry Pi**
-Clearly the most vital part of this project is the Raspberry Pi. We recommend purchasing the latest model Pi off of the Adaruit website. You can prucahse the model we used, Rapsberry Pi 3 - Model B, [here](https://www.adafruit.com/product/3055)
+
+Clearly the most vital part of this project is the Raspberry Pi. We recommend purchasing the latest model Pi off of the Adaruit website. You can prucahse the model we used, Rapsberry Pi 3 - Model B, [here](https://www.adafruit.com/product/3055).
+
 Cost: $39.95 + Shipping
 
+**Micro SD Card**
 
+Don't be tempted to get a small 4GB or 8GB like we originally did. Synchronizing the blockchain will take a signifigant amount of memory. Go for a 16GB or 32GB if you wish to mine several cryptocurrencies. Eventually we went with [this](http://www.bestbuy.com/site/sandisk-pixtor-advanced-32gb-microsdhc-uhs-i-memory-card-red-gold/7801066.p?skuId=7801066&extStoreId=&ref=212&loc=1&ksid=cfee5b1a-3e22-4387-b064-eefd78af148e&ksprof_id=14&ksaffcode=pg174626&ksdevice=c&lsft=ref:212,loc:2) Sandisk card. 
+
+Cost: $29.99
+
+**LCD Display**
+
+Not necessary but definitely a very cool addition to the project is the Adafruit Blue & White 16x2 LCD + Keypad kit. Snag it on amazon prime [here](https://www.amazon.com/ADAFRUIT-INDUSTRIES-1115-KEYPAD-RASPBERRY/dp/B00DK2A1KE/ref=sr_1_14?ie=UTF8&qid=1495047907&sr=8-14&keywords=adafruit+lcd+display).
+
+Cost: $19.91
+
+**Total Costs**
+~$100.00 
 
 # Raspberry Pi Configuration 
 Make sure to include version information here. 
