@@ -1,3 +1,6 @@
+# Forked from [node-cryptonote-pool](https://github.com/zone117x/node-cryptonote-pool)
+
+
 node-cryptonote-pool
 ====================
 
