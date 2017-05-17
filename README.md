@@ -11,6 +11,8 @@ So with that in mind let's get started!
 
 # Instructions 
 
+Test
+
 Aside from the crypotcurrency synchronization this project is... 
 
 ### Materials and Costs 
