@@ -9,24 +9,25 @@ Please note that mining with a Raspberry Pi alone (without having additionally s
 
 So with that in mind let's get started! 
 
-# Instructions 
+# Materials and Costs 
+**Raspberry Pi**
+Clearly the most vital part of this project is the Raspberry Pi. We recommend purchasing the latest model Pi off of the Adaruit website. You can prucahse the model we used, Rapsberry Pi 3 - Model B, [here](https://www.adafruit.com/product/3055)
+Cost: $39.95 + Shipping
 
-Aside from the crypotcurrency synchronization this project is... 
 
-### Materials and Costs 
 
-### Raspberry Pi Configuration 
+# Raspberry Pi Configuration 
 Make sure to include version information here. 
 
-### Installing the LCD Display 
+# Installing the LCD Display 
 
 Put picture here 
 
-### Monero 
+# Monero 
 
-### Pooling 
+# Pooling 
 
-### Preliminary Resutls and Conclusion 
+# Preliminary Resutls and Conclusion 
 
 
 The links to our individual daily logs can be found here: and here: . 
