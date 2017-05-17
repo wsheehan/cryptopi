@@ -1,12 +1,13 @@
 Crypto Pi
 
 # Introduction and Motivation 
+This guide will describe to how to use a Raspberry Pi as a cryptocurrency miner.  The Pi will have a miniature LCD display attached that will have various mining information shown.  Additionally, readers will learn how to set up a cryptocurrency pool on their Pi that could then be connected to via any device. The final product can be seen below: 
 
-Insert end picture here 
+**Insert finished product here**
 
-This is an educational project. 
+Please note that mining with a Raspberry Pi alone (without having additionally systems set up through a pool as we do) will likely never result in any profits. This is first and foremost an educational project. 
 
-So let's get started! 
+So with that in mind let's get started! 
 
 # Instructions 
 
