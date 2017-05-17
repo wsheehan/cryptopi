@@ -36,7 +36,7 @@ With this complete you are all set to SSH into your Pi and get to work.
 
 # Installing the LCD Display 
 
-Put picture here 
+If you decide to forego purchasing the LCD display skip this section. Otherwise put your solder hat on and getting ready to spend the next hour or so soldering. 
 
 # Monero 
 
