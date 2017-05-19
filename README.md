@@ -41,10 +41,12 @@ If you decide to forego purchasing the LCD display skip this section. Otherwise 
 Some notes from our experience putting it together:
 * Solder outside. The fumes will get to you 
 * Absolutely do not forget to place the electrical tape on the USB connection
-* It is highly likely the contrast will not be calibrated correctly. Use a small screwdriver and twist until the text is visible 
+* It is highly likely the contrast will not be calibrated correctly. Use a small screwdriver and twist the orange button  until the text is visible 
 * Do not press the buttons too hard. As you will learn the board is not supported properly on one of the corners once installed onto the Pi  
 
 # Monero 
+For our project we have deicded to mine Monero. This is primarilly because Monero is a CPU intensive cryptocurrency to mine. Additionally, when we were beginning the project in May 2017 there was a lot hype around it and it's value was skyrocketing. Do some research. There are hundreds of coins to choose from. 
+
 
 # Pooling 
 
