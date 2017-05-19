@@ -176,7 +176,7 @@ git push origin <branch_name>
   * Redis is a data structure storage server that is incredibly fast & used by pool software
   * install nodejs as per their website [installation](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 
-# May 19
+# May 17
 
 * Cloning pool
   * Need to clone pool code into our repo
@@ -184,3 +184,13 @@ git push origin <branch_name>
   * Tried treating the pool repo as a submodule, but then we cant edit it
   * Finally managed to clone and make part of root repo
   * 'rm -rf pool/.git' and 'rm pool/.gitignore'
+
+# May 19
+
+* Monero still not finished
+* pool config
+  * created `config.json` file for pool config
+  * turned off payments as we want all block to go to our own address
+  * checked if redis server operating as expected, it does
+  * cant run pool until monero done syncing however
+  * power went out, shutting down the pi, monero sync not ruined though (thank god)
