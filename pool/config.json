@@ -1,9 +1,7 @@
 {
-    // We are mining Monero only so far
     "coin": "monero",
     "symbol": "XMR",
 
-    // Logging config
     "logging": {
         "files": {
             "level": "info",
@@ -75,8 +73,7 @@
     },
 
     "payments": {
-        // Not enabling payments yet
-        "enabled": false,
+        "enabled": true,
         "interval": 600,
         "maxAddresses": 50,
         "mixin": 3,
@@ -86,8 +83,7 @@
     },
 
     "blockUnlocker": {
-        // Only neccessary if we are paying out
-        "enabled": false,
+        "enabled": true,
         "interval": 30,
         "depth": 60,
         "poolFee": 2,
@@ -102,22 +98,19 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "cryptopi"
+        "password": "your_password"
     },
 
-    // Daemon connection details
     "daemon": {
         "host": "127.0.0.1",
         "port": 18081
     },
 
-    // Wallet connection details
     "wallet": {
         "host": "127.0.0.1",
         "port": 8082
     },
 
-    // Redis connection details
     "redis": {
         "host": "127.0.0.1",
         "port": 6379,
