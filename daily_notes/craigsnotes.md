@@ -150,3 +150,9 @@
 * Monero Pool 
   * Began setting up mining pool on the Pi 
   * Cannot begin using until Monero synch is complete
+
+# Wednesday May 17, 2017 
+
+* Waiting for the synch to compelte 
+  * Worked on GitHub pages 
+  * Planned final video 
