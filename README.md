@@ -36,7 +36,13 @@ With this complete you are all set to SSH into your Pi and get to work.
 
 # Installing the LCD Display 
 
-If you decide to forego purchasing the LCD display skip this section. Otherwise put your solder hat on and getting ready to spend the next hour or so soldering. 
+If you decide to forego purchasing the LCD display skip this section. Otherwise put your solder hat on and getting ready to spend the next hour or so soldering. We are not going to go into specifics of how to install the board since Adafruit has a perfectly written guide [here](https://learn.adafruit.com/adafruit-16x2-character-lcd-plus-keypad-for-raspberry-pi/assembly).
+
+Some notes from our experience putting it together:
+* Solder outside. The fumes will get to you 
+* Absolutely do not forget to place the electrical tape on the USB connection
+* It is highly likely the contrast will not be calibrated correctly. Use a small screwdriver and twist until the text is visible 
+* Do not press the buttons too hard. As you will learn the board is not supported properly on one of the corners once installed onto the Pi  
 
 # Monero 
 
@@ -44,12 +50,22 @@ If you decide to forego purchasing the LCD display skip this section. Otherwise 
 
 # Preliminary Resutls and Conclusion 
 
+some graphs or something here would be really nice...
 
 The links to our individual daily logs can be found here: and here: . 
 
 # Challenges 
 
+* Network issues - slow, potentially sycnhonization block on school netowrks 
+* Size Constraints - downloading the blockchains takes a lot of time and memory 
+
+
 
 # Video Demonstration 
 
 Lets make a brief two minute video that has both of us in it a shows the information the Pi has.
+
+30 seconds brief introduction to what the raspberry Pi does 
+30 seconds using desktop to join the pool 
+30 seconds showing the information being displayed on the LCD display 
+30 seconds conclusion and discussing results 
