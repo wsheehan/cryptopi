@@ -175,3 +175,12 @@ git push origin <branch_name>
   * Downloaded redis via `sudo apt-get install redis-server`
   * Redis is a data structure storage server that is incredibly fast & used by pool software
   * install nodejs as per their website [installation](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+
+# May 19
+
+* Cloning pool
+  * Need to clone pool code into our repo
+  * Straight clone in a subdirectory does not work however because the pool is its own git repo
+  * Tried treating the pool repo as a submodule, but then we cant edit it
+  * Finally managed to clone and make part of root repo
+  * 'rm -rf pool/.git' and 'rm pool/.gitignore'
