@@ -156,3 +156,10 @@
 * Waiting for the synch to compelte 
   * Worked on GitHub pages 
   * Planned final video 
+
+# Friday May 19, 2017
+
+* Synchronization Issues 
+  * Monero synch stopped about 90% from completetion 
+  * Emailed networking people to find out if we could continue our download of the blockchain 
+  * Continued working on the website 
