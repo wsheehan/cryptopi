@@ -58,8 +58,9 @@ The links to our individual daily logs can be found here: and here: .
 
 # Challenges 
 
-* Network issues - slow, potentially sycnhonization block on school netowrks 
+* Network issues - slow, potentiallydownload block on school netowrks 
 * Size Constraints - downloading the blockchains takes a lot of time and memory 
+* Mining power - Raspberry Pi alone with never accomplish anything signifigant, unless working with free elecetricty in which case it will still take considerable time to break even 
 
 
 
