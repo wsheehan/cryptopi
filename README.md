@@ -50,6 +50,13 @@ For our project we have deicded to mine Monero. This is primarilly because Moner
 
 # Pooling 
 
+For our pool we have decided to leverage an [open source pool](https://github.com/zone117x/node-cryptonote-pool) designed for cryptonote based coins. The pool has tons of features that we are really just scraping the surface of, however there are a couple important ones to note. The ability to load balance mining from faster cpus vs. our pi or a phone etc... Second the pool rolls its own ajax api which we can query and then display mining and pool data on the LCD display.
+
+Setup
+* Install redis `sudo apt-get install redis-server`, redis is a key value store that is lightning fast
+* Install nodejs [instructions](https://nodejs.org/en/download/package-manager/)
+* Install libssl and Boost `sudo apt-get install libssl-dev libboost-all-dev`
+
 # Preliminary Resutls and Conclusion 
 
 some graphs or something here would be really nice...
