@@ -79,18 +79,4 @@ Quickly it became apparent that most coins were going to be completely unfeasibl
 On the monero website, the monero blockchain is described as 'a couple gigs', therefore we assumed that our 8GB SD card would be sufficient. After about half of a sync, a quick `df` showed we were quickly approaching our limit. Therefore quite late in the game we had to buy a new 32GB SD card to adequately hold the monero blockchain.
 
 **Synchronization**
-In order to mine and run a node, the ENTIRE history of monero must be stored and verified in the form of the blockchain. This is what makes cryptocurrencies work, a shared understanding of the blockchain. However, this synchronization is not fast. In our first sync try on the 32GB card we tried to sync from scratch, and made it all the way to 1200001 out of ~13100000 when a power flicker disrupted the sync. Additionally after the power outage we were not entirely clear that we could not resume, losing more time. In a last ditch effort with only 3 days left we tried a different sync technique where you download the 'raw' blockchain and then have a monero import program verify *every*single block. This too has proved slow, possibly slower than from scratch. As of 5/26 in the morning we sit at 1150000 out of ~131000. Close, but not quite enough to have a functioning miner/pool as of yet. 
-
-* Network issues - slow, potentiallydownload block on school netowrks 
-* Size Constraints - downloading the blockchains takes a lot of time and memory 
-* Mining power - Raspberry Pi alone with never accomplish anything signifigant, unless working with free elecetricty in which case it will still take considerable time to break even 
-
-
-
-# Video Demonstration 
-
-Lets make a brief two minute video that has both of us in it a shows the information the Pi has.
-
-30 seconds brief introduction to what the raspberry Pi does 
-30 seconds using desktop to join the pool 
-30 seconds showing the information being displayed on the LCD display 
+In order to mine and run a node, the ENTIRE history of monero must be stored and verified in the form of the blockchain. This is what makes cryptocurrencies work, a shared understanding of the blockchain. However, this synchronization is not fast. In our first sync try on the 32GB card we tried to sync from scratch, and made it all the way to 1200001 out of ~13100000 when a power flicker disrupted the sync. Additionally after the power outage we were not entirely clear that we could not resume, losing more time. In a last ditch effort with only 3 days left we tried a different sync technique where you download the 'raw' blockchain and then have a monero import program verify *every*single block. This too has proved slow, possibly slower than from scratch. As of 5/26 in the morning we sit at 1150000 out of ~131000. Close, but not quite enough to have a functioning miner/pool as of yet.
