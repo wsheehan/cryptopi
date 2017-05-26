@@ -1,7 +1,8 @@
 # Introduction and Motivation 
 This guide will describe to how to use a Raspberry Pi as a cryptocurrency miner.  The Pi will have a miniature LCD display attached that will have various mining information shown.  Additionally, readers will learn how to set up a cryptocurrency pool on their Pi that could then be connected to via any device. The final product can be seen below: 
 
-**Insert finished product here**
+![alt text](hit-select.jpeg "Hit Select!")
+![alt text](time.jpeg "Time")
 
 Please note that mining with a Raspberry Pi alone (without having additionally systems set up through a pool as we do) will likely never result in any profits. This is first and foremost an educational project. The advantages of using a Pi is that we can always have it turned on devoting processing power to mining and that we can attach a miniature LCD display that is always displaying information about the mining process. Additionally, since the Pi has built in Wifi it would be possible to attach a portable power supply and take the Pi around to show off how cool the LCD display is! 
 
@@ -32,7 +33,13 @@ Cost: $19.91
 # Raspberry Pi Configuration 
 The first step in configuring your Raspberry Pi is to hook it up to an external monitor and keyboard. Boot up the Pi and connect to your wifi hotspot (or ethernet). Obtain the IP address. Go into the ifconfig and make sure to parition the micro SD card to use the entire memory. You will also want to go ahead and enable SSH and I2C while you are in the ifconfig. If this is your first time configuring a Raspberry Pi we recommend you follow this [guide](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-2-first-time-configuration/overview) by Adafruit.  
 
-With this complete you are all set to SSH into your Pi and get to work. 
+With this complete you are all set to SSH into your Pi and get to work.
+
+**OS**
+Our Chosen OS was Raspbian GNU/Linux 8.0 (jessie lite)
+
+**Python Version**
+`2.7.9`
 
 # Installing the LCD Display 
 
