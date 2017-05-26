@@ -62,13 +62,7 @@ Setup
 * Install libssl and Boost `sudo apt-get install libssl-dev libboost-all-dev`
 
 Running
-* node init.js
-
-# Preliminary Resutls and Conclusion 
-
-some graphs or something here would be really nice...
-
-The links to our individual daily logs can be found here: and here: . 
+* `node init.js`
 
 # Challenges
 
@@ -80,3 +74,5 @@ On the monero website, the monero blockchain is described as 'a couple gigs', th
 
 **Synchronization**
 In order to mine and run a node, the ENTIRE history of monero must be stored and verified in the form of the blockchain. This is what makes cryptocurrencies work, a shared understanding of the blockchain. However, this synchronization is not fast. In our first sync try on the 32GB card we tried to sync from scratch, and made it all the way to 1200001 out of ~13100000 when a power flicker disrupted the sync. Additionally after the power outage we were not entirely clear that we could not resume, losing more time. In a last ditch effort with only 3 days left we tried a different sync technique where you download the 'raw' blockchain and then have a monero import program verify *every*single block. This too has proved slow, possibly slower than from scratch. As of 5/26 in the morning we sit at 1150000 out of ~131000. Close, but not quite enough to have a functioning miner/pool as of yet.
+
+![alt text](sync.png "Blockchain import")
