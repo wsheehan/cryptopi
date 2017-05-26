@@ -52,10 +52,17 @@ For our project we have deicded to mine Monero. This is primarilly because Moner
 
 For our pool we have decided to leverage an [open source pool](https://github.com/zone117x/node-cryptonote-pool) designed for cryptonote based coins. The pool has tons of features that we are really just scraping the surface of, however there are a couple important ones to note. The ability to load balance mining from faster cpus vs. our pi or a phone etc... Second the pool rolls its own ajax api which we can query and then display mining and pool data on the LCD display.
 
+What is a mining pool?
+
+Mining pools allow for external mining to join a group of miners and contribute their share of mining power. Pools are appealing to many because it means avoiding downloading coin binaries and setting up a full node. Most professional miners mine in pools so as to increase block award probability. Setting up a pool on our pi allows us to leverage the pi's ability to be always running, while also allowing stronger CPU's to attach and possibly mine non-trivial amounts.
+
 Setup
 * Install redis `sudo apt-get install redis-server`, redis is a key value store that is lightning fast
 * Install nodejs [instructions](https://nodejs.org/en/download/package-manager/)
 * Install libssl and Boost `sudo apt-get install libssl-dev libboost-all-dev`
+
+Running
+* node init.js
 
 # Preliminary Resutls and Conclusion 
 
@@ -63,7 +70,16 @@ some graphs or something here would be really nice...
 
 The links to our individual daily logs can be found here: and here: . 
 
-# Challenges 
+# Challenges
+
+**Difficulty of coins**
+Quickly it became apparent that most coins were going to be completely unfeasible on the pi, two of our originals, ethereum and litecoin were among said coins. This brought us to the crytonote algorithm. The only mainstream coins that are CPU mineable feasibly are cryptonote based coins. Monero is the largest with Bytecoin also managing a large market cap. Monero rolls an ARMv7 binary, Bytecoin however... did not. Before the pooling pivot was made we spent a significant amount of time trying to build bytecoin from source on our pi, to no avail. Other cryptonote coins have very similar achitectures to bytecoin so we could not run them either. This lead us to focusing just on Monero and moving towards pooling.
+
+**Disk Space**
+On the monero website, the monero blockchain is described as 'a couple gigs', therefore we assumed that our 8GB SD card would be sufficient. After about half of a sync, a quick `df` showed we were quickly approaching our limit. Therefore quite late in the game we had to buy a new 32GB SD card to adequately hold the monero blockchain.
+
+**Synchronization**
+In order to mine and run a node, the ENTIRE history of monero must be stored and verified in the form of the blockchain. This is what makes cryptocurrencies work, a shared understanding of the blockchain. However, this synchronization is not fast. In our first sync try on the 32GB card we tried to sync from scratch, and made it all the way to 1200001 out of ~13100000 when a power flicker disrupted the sync. Additionally after the power outage we were not entirely clear that we could not resume, losing more time. In a last ditch effort with only 3 days left we tried a different sync technique where you download the 'raw' blockchain and then have a monero import program verify *every*single block. This too has proved slow, possibly slower than from scratch. As of 5/26 in the morning we sit at 1150000 out of ~131000. Close, but not quite enough to have a functioning miner/pool as of yet. 
 
 * Network issues - slow, potentiallydownload block on school netowrks 
 * Size Constraints - downloading the blockchains takes a lot of time and memory 
