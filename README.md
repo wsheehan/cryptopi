@@ -3,7 +3,7 @@ This guide will describe to how to use a Raspberry Pi as a cryptocurrency miner.
 
 **Insert finished product here**
 
-Please note that mining with a Raspberry Pi alone (without having additionally systems set up through a pool as we do) will likely never result in any profits. This is first and foremost an educational project. 
+Please note that mining with a Raspberry Pi alone (without having additionally systems set up through a pool as we do) will likely never result in any profits. This is first and foremost an educational project. The advantages of using a Pi is that we can always have it turned on devoting processing power to mining and that we can attach a miniature LCD display that is always displaying information about the mining process. Additionally, since the Pi has built in Wifi it would be possible to attach a portable power supply and take the Pi around to show off how cool the LCD display is! 
 
 So with that in mind let's get started! 
 
@@ -94,4 +94,3 @@ Lets make a brief two minute video that has both of us in it a shows the informa
 30 seconds brief introduction to what the raspberry Pi does 
 30 seconds using desktop to join the pool 
 30 seconds showing the information being displayed on the LCD display 
-30 seconds conclusion and discussing results 
